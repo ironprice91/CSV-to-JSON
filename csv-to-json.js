@@ -60,7 +60,7 @@ obj2[keys.toString().split(',')[0]] = name[2];
 obj2[keys.toString().split(',')[1]] = age[2];
 obj2[keys.toString().split(',')[2]] = city[2];
 
-var newObject = [obj0,obj1,obj2]
+var newObject = [JSON.stringify(obj0),JSON.stringify(obj1),JSON.stringify(obj2)];
 console.log(newObject);
 
 console.log('--------');
